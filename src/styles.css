@@ -1,0 +1,35 @@
+main {
+    font-family: system-ui, sans-serif;
+    max-width: 640px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    min-width: 300px;
+  }
+  
+  [role="tablist"] button {
+    margin-right: 0.5rem;
+  }
+  
+  [role="tab"][aria-selected="true"] {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
